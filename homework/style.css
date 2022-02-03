@@ -1,0 +1,6 @@
+.text{
+    padding: 40px;
+    outline: 3px solid white ;  
+    background-color: yellowgreen;
+    outline-offset: -15px;
+}
