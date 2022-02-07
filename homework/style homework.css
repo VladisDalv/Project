@@ -142,15 +142,12 @@ top: 699px;
 color: #FFFFFF;
 }
 .main__button{
-display: inline-block;
-width :270px;
-height :58px;
-border: 1px solid #FFFFFF;
+outline: 3px solid white ; 
 text-decoration:none;
 color: #FFFFFF;
 position: absolute;
 left: 170px;
-right: 1070px;
+right: px;
 top: 783px;
 font-family: "Open Sans";
 font-style: normal;
@@ -158,9 +155,15 @@ font-weight: 600;
 font-size: 18px;
 line-height: 25px;
 display: flex;
+padding: 1rem 6rem;
 align-items: center;
-text-align: center;
 text-transform: capitalize;
-padding: ;
-
+}
+.media{
+    position: absolute;
+    width: 1510px;
+    height: 140px;
+    left: 0px;
+    top: 1026px;
+    background-color: #F8EFEF;
 }
