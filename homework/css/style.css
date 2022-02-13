@@ -13,6 +13,9 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
+.element-text{
+    text-align: center;
+}
 
 /*titles*/
 h1,.title1{
@@ -74,16 +77,55 @@ h6,.title6{
     color:white
 }
 
+
+.line{
+    border-bottom: 1px;
+    border-color: #EC7979;
+    width: 170px;
+}
+
+/*header*/
+.header{
+    background-color: black;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+}
+.header__link{
+    display:inline-block ;
+    width: 114px;
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    padding: 28px 0px 28px;
+}
+
+
 /*baner*/
+.element-text--main-baner{
+    text-align: left;
+
+}
 .main-baner{
     background-color: rgb(0, 0, 0,0.5);
     color:#fff;
     padding: 306px 0 185px;
 }
-.main-baner__title{
-    margin-bottom: 97px;
+.title--main-baner{
+    margin-bottom: 55px;
 }
-.main-baner__title:last-child{
+.main-baner--title:last-child{
     margin-bottom: 0;
 }
 
@@ -92,4 +134,34 @@ h6,.title6{
 }
 .main-baner__text:last-child{
     margin-bottom: 0;
+}
+.line--main-baner{
+    margin-left: 0px;
+    border-color: #fff;
+    margin-bottom: 42px;
+}
+.line--baner:last-child{
+    margin-bottom: 0;
+}
+
+/*media*/
+.main-media{
+    display: flex;
+}
+.title--main-media{
+    margin-bottom: 18px;
+}
+.title--main-media:last-child{
+    margin-bottom: 0px;
+}
+.main-media__element-text{
+    display: inline-block;
+    width: 470px;
+}
+.media__list{
+    display: flex;
+    justify-content: end;
+}
+.media__item{
+    display: inline-block;
 }
