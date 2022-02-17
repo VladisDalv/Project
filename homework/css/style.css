@@ -113,14 +113,13 @@ h6,.title6{
 
 
 /*baner*/
-.element-text--main-baner{
-    text-align: left;
-
-}
 .main-baner{
     background-color: rgb(0, 0, 0,0.5);
     color:#fff;
     padding: 306px 0 185px;
+}
+.element-text--main-baner{
+    text-align: left;
 }
 .title--main-baner{
     margin-bottom: 55px;
@@ -146,22 +145,61 @@ h6,.title6{
 
 /*media*/
 .main-media{
+    background-color: #F8EFEF;
+}
+.main-media__blok{
     display: flex;
+    justify-content: space-between;
 }
 .title--main-media{
-    margin-bottom: 18px;
+    display: inline-block;
+    margin-bottom: 32px;
+    margin-top: 14px;
 }
 .title--main-media:last-child{
     margin-bottom: 0px;
 }
 .main-media__element-text{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     width: 470px;
 }
 .media__list{
     display: flex;
-    justify-content: end;
+    
 }
 .media__item{
     display: inline-block;
+    padding: 35px 15px;
 }
+
+/*section 2*-tab*/
+.main-tab{
+    padding:100px 0px 50px;
+    background-color: #fff;
+}
+.main-tab__blok{
+    display: flex;
+    justify-content: space-between;
+}
+.tab__list{
+    display: flex;
+    text-transform: uppercase;
+}
+.tab__item{
+    display: inline-block;
+    width: 200px;
+    margin:20px 0px 20px;
+    text-align: center;
+}
+.element-text--section2{
+    text-align: left;
+    width: 570px;
+    margin-left: 100px;
+    margin-right: 30px;
+}
+.title--main-tab{
+    margin-bottom: 69px;
+    margin-top: 42px;
+}
+
