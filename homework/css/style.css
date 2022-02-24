@@ -85,27 +85,33 @@ h6,.title6{
 .header{
     background-color: black;
 }
+.header__img{
+    align-self: center;
+}
 .header__nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .header__list{
     display: flex;
 }
+.header__item{
+    display: flex;
+
+}
 .header__link{
-    display:inline-block ;
-    width: 114px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 113px;
+    padding: 10px 0px;
     text-decoration: none;
     font-family: "Open Sans";
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
     font-weight: 600;
-    text-align: center;
     color: #fff;
-    padding: 28px 0px 28px;
 }
 
 
@@ -305,3 +311,4 @@ box-shadow: inset 0px 0px 10px #AB4949;
     background-color: #FFFFFF;
     border-bottom: 1px solid #F5F5F5;
 }
+.item-section4__list__item:
