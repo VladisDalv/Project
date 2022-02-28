@@ -1,22 +1,11 @@
 .conteiner{
     position: relative;
     height: 900px;
+    max-width: 3000px;
     background:linear-gradient( rgb(15, 85, 235), rgb(46, 134, 192));
     background-size: cover;
     overflow:hidden;
     
-}
-
-#oval {
-    position: absolute;
-    top:40%;
-    left: 15%;
-	width: 1200px;
-	height: 400px;
-	background: rgb(17, 168, 42);
-	-moz-border-radius: 70% / 50%;
-	-webkit-border-radius: 70% / 50%;
-	border-radius: 70% / 70%;
 }
 #circle {
     position: absolute;
@@ -30,28 +19,200 @@
 	border-radius: 50%;
 }
 
-#square {
-    position: absolute;
-    left: 40%;
-    top:50%;
-	width: 200px;
-	height: 200px;
-	background: red;
+
+#rainbow {
+    transform: rotate(90deg);
+    position: relative;
+    
 }
 
-#triangle-up {
+#rainbow__red {
+    width: 1400px;
+    height: 1400px;
+    border-radius: 100% 0 0 0;
+    background-color: red;
     position: absolute;
-    top: -100px;
+    right: 0px;
+    top: 300px;
+}
+#rainbow__orange {
+    width: 1300px;
+    height: 1300px;
+    border-radius: 100% 0 0 0;
+    background-color: orange;
+    position: absolute;
+    right: 0px;
+    top: 400px;
+}
+#rainbow__yellow {
+    width: 1200px;
+    height: 1200px;
+    border-radius: 100% 0 0 0;
+    background-color: yellow;
+    position: absolute;
+    right: 0px;
+    top: 500px;
+}
+#rainbow__green {
+    width: 1100px;
+    height: 1100px;
+    border-radius: 100% 0 0 0;
+    background-color: green;
+    position: absolute;
+    right: 0px;
+    top: 600px;
+}
+#rainbow__blue {
+    width: 1000px;
+    height: 1000px;
+    border-radius: 100% 0 0 0;
+    background-color: blue;
+    position: absolute;
+    right: 0px;
+    top: 700px;
+}
+#rainbow__violet {
+    width: 900px;
+    height: 900px;
+    border-radius: 100% 0 0 0;
+    background-color: violet;
+    position: absolute;
+    right: 0px;
+    top: 800px;
+}
+#rainbow__aqua {
+    width: 800px;
+    height: 800px;
+    border-radius: 100% 0 0 0;
+    background-color: aqua;
+    position: absolute;
+    right: 0px;
+    top: 900px;
+}
+
+#oval {
+    position: relative;
+    top:40%;
+    left: 15%;
+	width: 1200px;
+	height: 340px;
+	background: #05f72d;
+	-moz-border-radius: 70% / 50%;
+	-webkit-border-radius: 70% / 50%;
+	border-radius: 70% / 70%;
+}
+#tree{
+    position: absolute;
+    left: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#head-tree{
+    position:relative ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#tree__element1{
+    margin: 0px 10px;
+    width: 0px;
+	height: 0px;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom: 60px solid #0fa70a;
+}
+#tree__element2{
+    margin-top: -20px;
+    width: 0px;
+	height: 0px;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	border-bottom: 80px solid #0fa70a;
+}
+#tree__element3{
+    margin-top: -30px;
+    width: 0px;
+	height: 0px;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 100px solid #0fa70a;
+}
+
+#tree__element4{
+    margin-top: -10px;
+    bottom:0px;
+    width: 30px;
+    height: 60px;
+    background: #633c02;
+}
+
+
+
+#fence{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    bottom: 20%;
+}
+#fence__triangle{
+    display: flex;
+    
+
+}
+#fence__square{
+    position: relative;
+    display: flex;
+    
+}
+
+#element-triangle{
+    margin: 0px 10px;
+    width: 0px;
+	height: 0px;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid rgb(12, 12, 12);
+}
+#element-square{
+    margin: 0px 10px;
+    width: 40px;
+    height: 100px;
+    background: #7e4904;
+}
+
+#house{
+    position: absolute;
+    left: 30%;
+    bottom: 20%;
+    width: 200px;
+}
+#triangle-up {
+    position: relative;
 	width: 0px;
 	height: 0px;
 	border-left: 100px solid transparent;
 	border-right: 100px solid transparent;
 	border-bottom: 100px solid rgb(12, 12, 12);
 }
+
+#chimney{
+    position: absolute;
+    left: 20%;
+    top:0%;
+    width: 30px;
+    height: 60px;
+    background: rgb(2, 2, 2);
+}
+
 #circle-window{
     position: absolute;
-    bottom: -75px;
-    left: -15px;
+    top: 13%;
+    left: 42%;
 	width: 30px;
 	height: 30px;
 	background: #080808;
@@ -60,40 +221,17 @@
 	border-radius: 50%;
     border: 1px solid white;
 }
-#chimney{
-    position: absolute;
-    left: -60px;
-    width: 30px;
-    height: 60px;
-    background: rgb(2, 2, 2);
-}
 
-#square-door{
-    position: absolute;
-    top:100px;
-    left: 10%;
-    width: 60px;
-    height: 100px;
-    background: rgb(2, 2, 2);
-    border: 1px solid white;
-}
-
-#circle-handle{
-    position: absolute;
-    bottom: 50%;
-    right: 5px;
-	width: 10px;
-	height: 10px;
-	background: #080808;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-    border: 1px solid white;
+#square {
+    position: relative;
+	width: 200px;
+	height: 200px;
+	background: red;
 }
 
 #square-window{
     position: absolute;
-    top:30%;
+    top: 20%;
     right: 10%;
     width: 60px;
     height: 60px;
@@ -101,9 +239,10 @@
     border: 1px solid white;
 }
 
-#square-grating{
+
+
+#window-grating{
     position: absolute;
-    top:0%;
     right: 0%;
     width: 30px;
     height: 30px;
@@ -112,13 +251,36 @@
     border-left: 1px solid white;
 }
 
-#square-grating-bottom{
+#window-grating-bottom{
     position: absolute;
-    bottom:0%;
     right: 0%;
+    bottom: 0%;
     width: 30px;
     height: 30px;
     background: rgb(2, 2, 2);
     border-top: 1px solid white;
     border-left: 1px solid white;
+}
+
+#square-door{
+    position: absolute;
+    left: 10%;
+    bottom: 0%;
+    width: 60px;
+    height: 100px;
+    background: rgb(2, 2, 2);
+    border: 1px solid white;
+}
+
+#circle-handle{
+    position: absolute;
+    top: 50%;
+    right: 5px;
+	width: 10px;
+	height: 10px;
+	background: #080808;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    border: 1px solid white;
 }
