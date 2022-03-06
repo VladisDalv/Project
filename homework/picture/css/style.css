@@ -2,7 +2,7 @@
     position: relative;
     height: 900px;
     max-width: 3000px;
-    background:linear-gradient( rgb(15, 85, 235), rgb(46, 134, 192));
+    background:rgb(46, 134, 192);
     background-size: cover;
     overflow:hidden;
     
@@ -21,14 +21,16 @@
 
 
 #rainbow {
-    transform: rotate(90deg);
-    position: absolute;
-    
+    transform: rotate(90deg) scale(0.5, 0.5);
+    position: relative;
+    width: 1200px;
+    height: 1200px;
+    left: -313px;
 }
 
 #rainbow__red {
-    width: 1400px;
-    height: 1400px;
+    width: 1500px;
+    height: 1500px;
     border-radius: 100% 0 0 0;
     background-color: red;
     position: absolute;
@@ -36,8 +38,8 @@
     top: 300px;
 }
 #rainbow__orange {
-    width: 1300px;
-    height: 1300px;
+    width: 1400px;
+    height: 1400px;
     border-radius: 100% 0 0 0;
     background-color: orange;
     position: absolute;
@@ -45,8 +47,8 @@
     top: 400px;
 }
 #rainbow__yellow {
-    width: 1200px;
-    height: 1200px;
+    width: 1300px;
+    height: 1300px;
     border-radius: 100% 0 0 0;
     background-color: yellow;
     position: absolute;
@@ -54,8 +56,8 @@
     top: 500px;
 }
 #rainbow__green {
-    width: 1100px;
-    height: 1100px;
+    width: 1200px;
+    height: 1200px;
     border-radius: 100% 0 0 0;
     background-color: green;
     position: absolute;
@@ -63,8 +65,8 @@
     top: 600px;
 }
 #rainbow__blue {
-    width: 1000px;
-    height: 1000px;
+    width: 1100px;
+    height: 1100px;
     border-radius: 100% 0 0 0;
     background-color: blue;
     position: absolute;
@@ -72,22 +74,84 @@
     top: 700px;
 }
 #rainbow__violet {
-    width: 900px;
-    height: 900px;
+    width: 1000px;
+    height: 1000px;
     border-radius: 100% 0 0 0;
-    background-color: violet;
+    background:rgb(46, 134, 192);
     position: absolute;
     right: 0px;
     top: 800px;
 }
 #rainbow__aqua {
-    width: 800px;
-    height: 800px;
+    width: 900px;
+    height: 900px;
     border-radius: 100% 0 0 0;
-    background-color: aqua;
+    background-color: rgb(46, 134, 192);
     position: absolute;
     right: 0px;
     top: 900px;
+}
+.sky {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.sky1{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left:100px;
+}
+
+.sky1-2 {
+    width: 300px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #00bfff;
+    transform: rotateZ(25deg);
+    position: absolute;
+}
+.sky1-1 {
+    width: 300px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #00bfff;
+    transform: scaleX(1);
+    transform: rotateZ(-20deg);
+    position: absolute;
+}
+.sky1-3{
+    width: 300px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #00bfff;
+    transform: scaleX(1);
+    transform: rotateZ(100deg);
+    position: absolute;
+}
+
+.sky2{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 1050px;
+}
+.sky2-1 {
+    width: 300px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #00bfff;
+    transform: rotateZ(45deg);
+    position: absolute;
+}
+.sky2-2 {
+    width: 300px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #00bfff;
+    transform: scaleX(1);
+    position: absolute;
 }
 
 #yard{
