@@ -117,7 +117,7 @@ h6,.title6{
 
 /*baner*/
 .main-baner{
-    background-color: rgb(0, 0, 0,0.5);
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/baner.jpg);
     color:#fff;
     padding: 306px 0 185px;
 }
@@ -191,12 +191,15 @@ h6,.title6{
     display: flex;
     text-transform: uppercase;
 }
-.tab__item{
+[class^=tab__item]{
+    position: relative;
     display: inline-block;
     width: 200px;
     padding:20px 0px 20px;
     text-align: center;
-    border: 1px solid #C6CBCD;
+}
+.tab__item1:focus{
+    border: 1px solid #C6CBCD; 
 }
 .element-text--section2{
     display: inline-block;
