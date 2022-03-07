@@ -190,6 +190,7 @@ h6,.title6{
 .tab__list{
     display: flex;
     text-transform: uppercase;
+    position: static;
 }
 [class^=tab__item]{
     position: relative;
@@ -199,7 +200,9 @@ h6,.title6{
     text-align: center;
 }
 .tab__item1:focus{
-    border: 1px solid #C6CBCD; 
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    padding-bottom: 17px;
 }
 .element-text--section2{
     display: inline-block;
