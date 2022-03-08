@@ -193,16 +193,25 @@ h6,.title6{
     position: static;
 }
 [class^=tab__item]{
-    position: relative;
     display: inline-block;
     width: 200px;
     padding:20px 0px 20px;
     text-align: center;
 }
-.tab__item1:focus{
+.tab__item1{
+    position: relative;
     border: 1px solid #C6CBCD;
-    border-bottom: none;
+    border-bottom: 0px;
     padding-bottom: 17px;
+}
+.tab__item1::before{
+    content: attr(tab__item1);
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    background-color: #fff;
+    left: 0px;
+    bottom:-1px;
 }
 .element-text--section2{
     display: inline-block;
@@ -226,8 +235,8 @@ h6,.title6{
     color:#fff;
 }
 .button--section2:active{
-background-color: #EC7979;
-box-shadow: inset 0px 0px 10px #AB4949;
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
 }
 /*swction3*/
 .main-section3{
@@ -245,7 +254,6 @@ box-shadow: inset 0px 0px 10px #AB4949;
 .list--section3{
     display: flex;
     justify-content: space-between;
-
 }
 .list__item{
     display: flex;
@@ -255,7 +263,7 @@ box-shadow: inset 0px 0px 10px #AB4949;
     max-width: 370px;
 }
 .title--item{
-    margin: 34px 0px 42px;
+    margin: 0px 0px 42px;
 }
 
 /*section4*/
