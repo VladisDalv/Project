@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Axit</title>
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;700;500&display=swap" rel="stylesheet">
@@ -31,12 +31,29 @@
         <!--baner-->
         <section class="main-baner">
             <div class="conteiner">
-                <div class="element-text element-text--main-baner">
-                    <img src="./images/AXIT.svg" alt="AXIT" class="main-baner__img"></img>
-                    <h1 class="title1 title--main-baner">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
-                    <hr class="line line--main-baner">
-                    <p class="main-baner__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                    <a href="" class="button">Download</a>
+                <div class="conteiner__content">
+                    <div class="element-text element-text--main-baner">
+                        <img src="./images/AXIT.svg" alt="AXIT" class="main-baner__img"></img>
+                        <h1 class="title1 title--main-baner">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                        <hr class="line line--main-baner">
+                        <p class="main-baner__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <a href="" class="button">Download</a>
+                    </div>
+                    <form class="form-baner form-baner--position">
+                        <div class="form-baner-inner">
+                            <h2 class="title4 title-form-baner">Try Your <em class="title4__word title4__word--color">FREE</em> Trial Today</h2>
+                            <div class="form-row">
+                                <input class="form-input" type="text" placeholder="Name">
+                            </div>
+                            <div class="form-row">  
+                                <input class="form-input" type="email" placeholder="Email">
+                            </div>  
+                            <div class="form-row">
+                                <input class="form-input" type="password" placeholder="Password">
+                            </div>
+                        </div>
+                        <button class="button form-baner-button">Get Started</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -184,7 +201,7 @@
                 </div>
                 <!--element 1-->
                 <ul class="list-section5">
-                    <ol class="block1-section5">
+                    <li class="block1-section5">
                         <div class="guote-section5">
                             <blockquote>Lorem ipsum dolor sit amet, 
                             consectetur adipisicing elit. Doloribus 
@@ -200,9 +217,9 @@
                                 <p class="element1-section5__paragraf">Manager</p>
                             </div>
                         </div>    
-                    </ol>
+                    </li>
                     <!--element 2-->
-                    <ol class="block2-section5">
+                    <li class="block2-section5">
                         <div class="guote-section5">
                             <blockquote>Lorem ipsum dolor sit amet, 
                             consectetur adipisicing elit. Doloribus 
@@ -218,9 +235,9 @@
                                 <p class="element1-section5__paragraf">Manager</p>
                             </div>
                         </div>    
-                    </ol>
+                    </li>
                     <!--element 3-->
-                    <ol class="block3-section5">
+                    <li class="block3-section5">
                         <div class="guote-section5">
                             <blockquote>Lorem ipsum dolor sit amet, 
                             consectetur adipisicing elit. Doloribus 
@@ -236,46 +253,64 @@
                                 <p class="element1-section5__paragraf">Manager</p>
                             </div>
                         </div>  
-                    </ol>
+                    </li>
                 </ul>
             </div>
         </section>
         <!--section 6-->
-        <section>
+        <section class="main-section6">
             <div class="conteiner">
                 <div class="element-text">
-                    <h2 class="title2">STYLISH AXURE DESIGN</h2>
-                    <hr class="line">
-                    <p>Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
-                    <a href="" class="button">download</a>
+                    <h2 class="title2 title-section6">STYLISH AXURE DESIGN</h2>
+                    <hr class="line line-section6">
+                    <p class="element-text__paragraph">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+                    <a href="" class="button button-section6">Download</a>
                 </div>
             </div>
         </section>
         <!--section 7-->
-        <section>
+        <section class="main-section7">
             <div class="conteiner">
                 <div class="element-text">
                     <h2 class="title2 title--section7">contact us</h2>
-                    <hr class="line">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="" class="button button--section7">Send Message</a>
+                    <hr class="line line--section7">
+                    <p class="element-text__paragraph-section7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <form class="form-section7 form-section7--position">
+                        <div class="form-section7__block">
+                            <div class="form-section7-inner">
+                                <div class="form-row-section7">
+                                    <input class="form-input" type="text" placeholder="Name">
+                                </div>
+                                <div class="form-row-section7 form-row-section7--margin ">  
+                                    <input class="form-input" type="email" placeholder="Email">
+                                </div>  
+                                <div class="form-row-section7 ">
+                                    <input class="form-input" type="password" placeholder="Password">
+                                </div>
+                            </div>
+                            <div class="form-row-section7">
+                                <textarea class="form-input" rows="10" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <button class="button button--section7">Send Message</button>
+                    </form>
                 </div>
             </div>
         </section>
         <!--section 8-->
     </main>
-    <footer>
+    <footer class="main-footer">
         <div class="conteiner">
-            <ul>
-                <li><a href=""><img src="./images/facebook_icon.svg" alt="facebook"></a></li>
-                <li><a href=""><img src="./images/twitter_icon.svg" alt="twitter"></a></li>
-                <li><a href=""><img src="./images/linkedin_icon.svg" alt="linkedin"></a></li>
-                <li><a href=""><img src="./images/pinterest_icon.svg" alt="pinterest"></a></li>
-                <li><a href=""><img src="./images/instagram_icon.svg" alt="instagram"></a></li>
-                <li><a href=""><img src="./images/github_icon.svg" alt="github"></a></li>
-                <li><a href=""><img src="./images/rss_icon.svg" alt="rss"></a></li>
+            <ul class="list-footer">
+                <li class="list-footer__icon"><a href=""><img src="./images/facebook_icon.svg" alt="facebook" "></a></li>
+                <li class="list-footer__icon"><a href=""><img src="./images/twitter_icon.svg" alt="twitter"></a></li>
+                <li class="list-footer__icon"><a href=""><img src="./images/linkedin_icon.svg" alt="linkedin"></a></li>
+                <li class="list-footer__icon"><a href=""><img src="./images/pinterest_icon.svg" alt="pinterest"></a></li>
+                <li class="list-footer__icon"><a href=""><img src="./images/instagram_icon.svg" alt="instagram"></a></li>
+                <li class="list-footer__icon"><a href=""><img src="./images/github_icon.svg" alt="github"></a></li>
+                <li class="list-footer__icon"><a href=""><img src="./images/rss_icon.svg" alt="rss"></a></li>
             </ul>
-            <p>&copy; 2015 Axure Themes</p>
+            <p class="list-footer__paragrapf">&copy; 2015 Axure Themes</p>
         </div>
     </footer>
 </body>

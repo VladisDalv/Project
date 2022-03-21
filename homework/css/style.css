@@ -81,6 +81,30 @@ h6,.title6{
     border-color: #EC7979;
     width: 170px;
 }
+
+.form-input{
+    width: 100%;
+    font: 400 14px/19px "Open sans", sans-serif;
+    color: #000000;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    padding: 15px 0px;
+    background: none;
+    outline: none;
+}
+
+.form-input:focus{
+    border-color: #000000;
+}
+
+.form-input::placeholder{
+    color:#BDBDBD;
+}
+
+.form-row + .form-row{
+    margin-top: 15px;
+}
+
 /*header*/
 .header{
     background-color: black;
@@ -121,6 +145,11 @@ h6,.title6{
     color:#fff;
     padding: 306px 0 185px;
 }
+
+.conteiner__content{
+    display: flex;
+    align-items: flex-start;
+}
 .element-text--main-baner{
     text-align: left;
 }
@@ -144,6 +173,48 @@ h6,.title6{
 }
 .line--baner:last-child{
     margin-bottom: 0;
+}
+.form-baner{
+    min-width: 470px; 
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.form-baner--position{
+    align-items: flex-start;
+}
+
+.form-baner-inner{
+    padding: 30px 50px 75px;
+}
+
+.title4__word--color{
+    color: rgba(236, 121, 121, 1);
+    font-style: normal;
+}
+
+.title-form-baner{
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.form-baner-button{
+    border: 0px;
+    width: 100%;
+    background-color: rgba(236, 121, 121, 1);
+    color: #fff;
+}
+
+.form-baner-button:hover{
+    border: 0px;
+    background-color:#AB4949;
+    color:#fff;
+}
+
+.form-baner-button:active{
+    border: 0px;
+    background-color: rgba(236, 121, 121, 1);
+    box-shadow: inset 0px 0px 10px #AB4949;
 }
 
 /*media*/
@@ -387,4 +458,119 @@ h6,.title6{
 .title--element{
     margin: 11px 0px 26px;
     
+}
+
+/*section6-STYLISH AXURE DESIGN*/
+
+.main-section6{
+    padding: 50px 0px 50px;
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/section6.jpg);
+    color: #FFFFFF;
+}
+
+.title-section6{
+    margin: 54px 0px 50px;
+}
+
+.line-section6{
+    border-color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.element-text__paragraph{
+    margin-bottom: 73px;
+}
+
+.button-section6{
+    width: 370px;
+    font: 600 18px/25px 'Open Sans', sans-serif;
+}
+
+/*section7-contact us*/
+
+.main-section7{
+    padding: 50px 0px 50px;
+}
+
+.title--section7{
+    margin: 54px 0px 54px;
+}
+
+.line--section7{
+    margin-bottom: 40px;
+}
+
+.element-text__paragraph-section7{
+    color: rgba(134, 135, 139, 1);
+}
+
+.form-section7--position{
+    margin-top: 74px;
+}
+
+.form-section7__block{
+    display: flex;
+    align-items: stretch;
+}
+
+.form-section7-inner{
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;*/
+    height: 100%;
+    margin-right: 30px;
+    width: 100%;
+}
+.form-row-section7{
+    width: 100%;
+}
+.form-section7-textaria{
+    width: 100%;
+}
+
+.form-row-section7--margin{
+    margin: 35px 0px 35px;
+}
+
+textarea.form-input{
+    resize: none;
+}
+
+.button--section7{
+    margin-top: 50px;
+    width: 370px;
+    color: #FFFFFF;
+    background-color:#EC7979;
+}
+
+.button--section7:hover{
+    background-color:#AB4949;
+    color:#fff;
+}
+.button--section7:active{
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}
+/*footer*/
+
+.main-footer{
+    padding: 40px 0px 27px;
+    background-color: #000000;
+    color:#FFFFFF;
+
+}
+
+.list-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-footer__icon{
+    margin: 0px 18px 28px 18px;
+}
+
+.list-footer__paragrapf{
+    display: flex;
+    justify-content: center;
 }
