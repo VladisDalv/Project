@@ -1,11 +1,22 @@
-*{
-    box-sizing: border-box
+/* .box{
+    display: grid;;
+    grid-template-columns: 300px 300px 300px;
+    gap: 1em;
 }
-.container{
+
+.item{
+    background-color: brown;
+    min-height: 150px;
+} */
+
+.conteiner{
     margin: 0 auto;
-    width: 1000px;
+    width: 1511px;
+
+
 }
 
 .list{
-    display: flex;
+    display: grid;
+    grid-template-columns: 378px 378px 378px 378px;
 }
