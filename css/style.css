@@ -180,6 +180,9 @@ h6,.title6{
     padding: 306px 0 185px;
 }
 
+.main-baner__img{
+    margin-bottom:50px;
+}
 .conteiner__content{
     display: flex;
     align-items: flex-start;
